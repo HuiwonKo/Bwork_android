@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/in_and_out"
+            android:icon="@drawable/passage_of_time"
+            android:title="출퇴근 관리" />
+        <item
+            android:id="@+id/schedule_me"
+            android:icon="@drawable/clock"
+            android:title="일정 관리" />
+        <item
+            android:id="@+id/meet_up"
+            android:icon="@drawable/network"
+            android:title="회의 관리"
+            />
+    </group>
+
+    <item
+        android:title="B-WORK TALK!"
+        >
+        <menu>
+            <item
+                android:id="@+id/chat_with_me"
+                android:icon="@drawable/ic_menu_send"
+                android:title="채팅" />
+        </menu>
+    </item>
+
+</menu>

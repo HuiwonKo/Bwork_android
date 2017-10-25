@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "249359998147",
+    "firebase_url": "https://bwork-859a4.firebaseio.com",
+    "project_id": "bwork-859a4",
+    "storage_bucket": "bwork-859a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249359998147:android:e6cb7a4c65bcca1d",
+        "android_client_info": {
+          "package_name": "com.perples.recosample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249359998147-pn8sqacukmfvrujgf8kq1kqduf11hi19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfN7R5owznBqdZGqFN9t4PA5DV6jC-VAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

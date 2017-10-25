@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearlayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회의 목록"
+            android:layout_marginTop="50dp"
+            android:textSize="23dp"
+            android:background="#515458"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:id="@+id/tv"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/addbtn"
+            android:background="@drawable/plusicon"
+            />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedule_recyclerView"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical"
+        android:layout_gravity="center"
+        android:layout_below="@id/linearlayout"
+        >
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

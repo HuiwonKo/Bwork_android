@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:id="@+id/planLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_min"
+            android:text="일정"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/planeditText"
+            android:layout_marginLeft="15dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planLayout"
+        android:layout_alignStart="@+id/planLayout"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_min"
+            android:text="시각"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/datebtn"
+                android:text="날짜 선택"
+                android:background="@color/orange_200"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/timebtn"
+                android:text="시각 선택"
+                android:background="@color/orange_200"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/locationLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/timeLayout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_min"
+            android:text="장소"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/locationeditText"
+            android:layout_marginLeft="15dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="#d17c1b"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:text=" 저장 " />
+
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="#d17c1b"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:text=" 닫기 " />
+    </LinearLayout>
+
+</RelativeLayout>

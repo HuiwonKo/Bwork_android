@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/border">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회의명"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/plan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="회의 시각"
+        android:id="@+id/time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="회의 장소"
+        android:id="@+id/location" />
+
+</LinearLayout>

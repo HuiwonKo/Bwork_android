@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">BWORK</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="settings">Current Settings</string>
+    <string name="settings_regions">Regions</string>
+    <string name="settings_recoonly">RECO Only</string>
+    <string name="settings_discontinouos">Discontinuous Scan</string>
+    <string name="settings_backgroundtimeout">Background Ranging Timeout</string>
+    <string name="settings_result_true">True</string>
+    <string name="settings_result_false">False</string>
+
+    <string name="background_monitoring">Background Monitoring</string>
+    <string name="background_ranging">Background Ranging</string>
+
+    <string name="start_monitoring">Start Monitoring</string>
+    <string name="start_ranging">Start Ranging</string>
+
+    <string name="temp">xxxxx</string>
+    <string name="major_label">Maj: </string>
+    <string name="minor_label">Min: </string>
+    <string name="tx_label">Tx: </string>
+    <string name="rssi_label">RSSI: </string>
+    <string name="battery_label">Battery: </string>
+    <string name="proximity_label">Proximity: </string>
+    <string name="accuracy_label">meters</string>
+    <string name="millivolt">mV</string>
+
+    <string name="location_permission_granted">Location permission has been granted. RECO SDK can now work properly.</string>
+    <string name="location_permission_not_granted">Location permission for this application is denied. RECO SDK may not work properly.</string>
+    <string name="location_permission_rationale">Location permission is needed to monitor or range beacons.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="navdemo">Navigation Drawer Full Demo</string>
+    <string name="gallery">This is GALLERY Activity</string>
+    <string name="fileimport">This is FILE IMPORT Activity</string>
+    <string name="slideshow">This is SLIDE SHOW Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_notice">NoticeActivity</string>
+
+
+    <string name="email">Email Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_register">New user, tap here to register !</string>
+    <string name="register">Register</string>
+
+    <string name="user_successfully_added">User successfully added!</string>
+    <string name="user_unable_to_add">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to database.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="font_family_roboto_light">sans-serif-thin</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure ?</string>
+</resources>
